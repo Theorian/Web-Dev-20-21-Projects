@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <style>
+          a {
+            color: wheat;
+          }
+      
+          img {
+            width: 50%;
+          }
+      
+          .mainContainer {
+            padding: 40px;
+            margin: 40px;
+            text-align: center;
+            color: white;
+          }
+      
+          .innerWhaleContainer {
+            background-color: rgb(12, 0, 57);
+          }
+      
+          body {
+            background-color: #222;
+            background-blend-mode: overlay;
+            background-image: url();
+            background-size: cover;
+          }
+        </style>
+      
+        <script>
+          moreToggledOn = false;
+      
+          function toggleMore() {
+            if (!moreToggledOn) {
+              moreToggledOn = true;
+              document.getElementById("moreinfo").style.display = "block";
+              document.getElementById("moreToggle").innerHTML = "Hide More info!";
+            } else {
+              moreToggledOn = false;
+              document.getElementById("moreinfo").style.display = "none";
+              document.getElementById("moreToggle").innerHTML = "More info...";
+            }
+          }
+        </script>
+      </head>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+      <div class="mainContainer innerWhaleContainer">
+        <a id="moreToggle" href="#" onclick="toggleMore()">
+          More Info...
+        </a>
+        <p style="color: rgb(120, 118, 0);">My Project!</p>
+        <div id="moreinfo" style="display: none;">
+          <p>
+  
+    <h1>Project Germany</h1>
+    <p>
+      A 2D Platformer Gamer in which you drive a tank.
+    <h3>Orion Pongklub</h3>
+    <p>I'm inspired by 2d platform games and indie retro games like shovel knight.</p>
+    <a href="https://trello.com/b/FkzEa7Rq/orions-web-dev-project"
+      >link to Trello Board</a
+    >
+    <p>_____________________</p>
+    <br />
+   
+    <a href="https://4q75j.csb.app/">My Project</a>
+   
+
+    <h1>About me!</h1>
+
+    <p>
+
+
+    </p>
+    <p>Game that I like: <span id="gameThatLike"></span></p>
+    <p>Movie I like: <span id="movieThatLike"></span></p>
+
+    <p>Random Quote: <span id="randomQuote"> </span></p>
+
+    </body>
+          </p>
+        </div>
+      </div>
+    </body>
+    
+</html>

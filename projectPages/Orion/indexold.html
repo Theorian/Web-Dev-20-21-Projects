@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    a {
+      color: wheat;
+    }
+
+    img {
+      width: 50%;
+    }
+
+    .mainContainer {
+      padding: 40px;
+      margin: 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .innerWhaleContainer {
+      background-color: rgb(12, 0, 57);
+    }
+
+    body {
+      background-color: #222;
+      background-blend-mode: overlay;
+      background-image: url();
+      background-size: cover;
+    }
+  </style>
+
+  <script>
+    moreToggledOn = false;
+
+    function toggleMore() {
+      if (!moreToggledOn) {
+        moreToggledOn = true;
+        document.getElementById("moreinfo").style.display = "block";
+        document.getElementById("moreToggle").innerHTML = "Hide More info!";
+      } else {
+        moreToggledOn = false;
+        document.getElementById("moreinfo").style.display = "none";
+        document.getElementById("moreToggle").innerHTML = "More info...";
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="mainContainer innerWhaleContainer">
+    <a id="moreToggle" href="#" onclick="toggleMore()">
+      More Info...
+    </a>
+    <p style="color: rgb(120, 118, 0);">By Orion Pongklub</p>
+    <div id="moreinfo" style="display: none;">
+      <p>
+        I am working on a clicker game. The objective is to click the button to
+        get some sort of money. With that money you can then buy boats and
+        background images.
+      </p>
+      <p>
+        About me: I like games, guns, anime, and America.
+      </p>
+
+      <p id="cheeseThatILike"></p>
+
+      <p id="appleThatILike"></p>
+
+      <p id="water"></p>
+      <span id="randomQuote"> </span></p>
+span></p>
+    </div>
+  </div>
+</body>

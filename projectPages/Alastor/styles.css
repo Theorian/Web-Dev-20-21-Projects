@@ -1,0 +1,22 @@
+.centered-color-with-padding {
+  text-align: center;
+  color: rgb(23, 80, 97);
+  background: rgba(255, 255, 255, 0.795);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background: rgba(26, 145, 145, 0.795);
+}
+ered-color-with-padding {
+  text-align: center;
+  color: rgb(23, 80, 97);
+  background: rgba(255, 255, 255, 0.795);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background: rgba(26, 145, 145, 0.795);
+}

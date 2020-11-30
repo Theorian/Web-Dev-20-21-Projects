@@ -1,0 +1,25 @@
+a {
+  color: cyan;
+}
+
+img {
+  width: 30%;
+}
+
+.mainContainer {
+  padding: 40px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+
+.otherContainer {
+  background-color: cyan;
+}
+
+body {
+  background-color: rgb(65, 65, 65);
+  background-blend-mode: overlay;
+  background-image: url();
+  background-size: cover;
+}

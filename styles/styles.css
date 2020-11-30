@@ -1,0 +1,154 @@
+html {
+}
+body {
+  background-image: url(https://www.freelancerstuff.com/images/thumbs/pattern_001.jpg);
+  background-color: #ddd;
+  background-size: 30%;
+  background-blend-mode: overlay;
+  font-family: "Arial";
+  margin: 0px;
+}
+.rounded {
+  border-radius: 10px;
+  padding: 10px !important;
+  text-align: center;
+  background: rgba(75%, 75%, 75%, 75%);
+  font-size: 1.5em;
+  margin: 10px 40px;
+}
+
+.rounded a {
+  color: grey;
+  font-weight: bolder;
+}
+
+.header-container {
+  background: rgba(14, 196, 30, 0.7);
+  padding: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.delsin {
+  color: rgb(255, 0, 0);
+  background-color: black;
+}
+.mrc-project {
+  text-align: center;
+  color: rgb(23, 80, 97);
+  background: rgba(255, 255, 255, 0.795);
+  padding: 10px;
+}
+.joshSproject {
+  color: rgb(0, 26, 255);
+  background: rgba(204, 182, 182, 0.767);
+  padding: 10px;
+}
+
+.kalebproject {
+  color: red;
+  background: rgb(0, 0, 0);
+}
+.orionsThing {
+  color: rgb(135, 128, 29);
+  background: rgb(3, 0, 52);
+  padding: 10px;
+}
+.KaleaYoshida {
+  color: rgb(124, 0, 161);
+  background: rgb(236, 162, 193);
+  padding: 15px;
+}
+.DraytonKollasch {
+  color: rgb(253, 113, 171);
+  background-color: rgb(0, 0, 0);
+}
+.joshua-project {
+  color: rgb(81, 185, 40);
+  background-color: rgb(22, 60, 131);
+  padding: 10px;
+}
+
+.joshua-project a {
+  color: rgb(81, 185, 40);
+}
+
+.colehammelproject {
+  color: rgb(22, 60, 131);
+}
+.name {
+  color: crimson;
+}
+.mitico {
+  color: rgb(216, 158, 0);
+  background: rgb(163, 1, 163);
+  padding: 10px;
+}
+.mitico a {
+  color: rgb(216, 158, 0);
+}
+.felixProject {
+  color: rgb(0, 200, 200);
+  background: rgb(1, 255, 14);
+
+  padding: 10px;
+}
+.Raymond {
+  color: rgb(81, 185, 40);
+}
+
+.AbbeyHalfmann {
+  color: rgb(100, 00, 125);
+}
+.SamuelBusch {
+  color: rgb(150, 0, 127);
+}
+
+.Kamakana {
+  color: rgb(255, 251, 0);
+  padding: 10px !important;
+  background-color: red;
+  border: 6px solid yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  font-weight: bolder;
+}
+
+.Kamakana a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.Kamakana a:hover {
+  color: red;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+.Parker {
+  color: rgb(22, 60, 131);
+  background: rgb(0, 0, 0);
+  padding: 10px;
+}
+.CalebDredge {
+  color: blue;
+  background-color: black;
+}
+.JJ {
+  color: rgb(255, 0, 240);
+  background-color: rgb(0, 200, 200);
+  padding: 15px;
+}
+
+.savedit {
+  color: rgb(132, 226, 255);
+  background: rgba(7, 40, 48, 0.7);
+  padding: 30px;
+}
+
+.example {
+  color: rgb(255, 132, 138);
+  background: rgba(48, 7, 7, 0.7);
+  padding: 30px;
+}

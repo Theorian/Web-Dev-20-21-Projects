@@ -1,0 +1,11 @@
+body {
+  background-color: lightgreen;
+}
+p {
+  color: darkblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+  color: darkgoldenrod;
+  font-family: cursive;
+}

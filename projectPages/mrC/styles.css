@@ -1,0 +1,25 @@
+a {
+  color: wheat;
+}
+
+img {
+  width: 30%;
+}
+
+.mainContainer {
+  padding: 40px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+
+.innerWhaleContainer {
+  background-color: rgb(45, 68, 75, 0.8);
+}
+
+body {
+  background-color: #222;
+  background-blend-mode: overlay;
+  background-image: url();
+  background-size: cover;
+}

@@ -1,0 +1,27 @@
+a {
+  color: rgb(247, 134, 134);
+}
+
+img {
+  width: 50%;
+}
+
+.mainContainer {
+  padding: 40px;
+  margin: 40px;
+  text-align: center;
+  color: rgba(255, 45, 192, 0.726);
+}
+
+.container {
+  background-color: rgba(119, 211, 240, 0.8);
+}
+
+body {
+  background-color: rgb(55, 160, 155);
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 45, 192, 0.726);
+}

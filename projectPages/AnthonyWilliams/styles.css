@@ -1,0 +1,25 @@
+a {
+  color: red;
+}
+
+img {
+  width: 50%;
+}
+
+.mainContainer {
+  padding: 40px;
+  margin: 40px;
+  text-align: center;
+  color: blueviolet;
+}
+
+ 
+  background-color=color=(grey)
+}
+
+body {
+  background-color: rgb(128, 128, 128);
+  background-blend-mode: overlay;
+  background-image: url();
+  background-size: cover;
+}
